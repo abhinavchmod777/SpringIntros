@@ -3,9 +3,11 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.springframework.org/schema/beans
-    http://www.springframework.org/schema/beans/spring-beans.xsd">
+    http://www.springframework.org/schema/beans/spring-beans.xsd"
+    default-init-method = "init" default-destroy-method="destroy">
 
-<bean id="restarauntBean" class="com.springcore.first.Restaraunt" scope="singleton">
+<bean id="restarauntBean" class="com.springcore.first.Restaraunt"  scope="prototype">
 </bean>
+<bean id="teaBean" class="com.springcore.first.Tea" ></bean>
 
 </beans>

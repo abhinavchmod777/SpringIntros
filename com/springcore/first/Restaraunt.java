@@ -12,4 +12,11 @@ public class Restaraunt
 		System.out.println(welcomeNote);
 	}
 	
+	public void init(){
+		System.out.println("Restaraunt bean is initailized");
+	}
+	public void destroy() {
+		System.out.println("Restaraunt bean is deatroyed");
+	}
+	
 }

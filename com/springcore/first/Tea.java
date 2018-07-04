@@ -6,4 +6,11 @@ public class Tea implements IHotDrink {
 		System.out.println("tea is made");
 	}
 
+	public void init(){
+		System.out.println("Tea bean is initailized");
+	}
+	public void destroy2() {
+		System.out.println("Tea bean is destroyed");
+	}
+
 }
