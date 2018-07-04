@@ -5,16 +5,7 @@
   xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean id="restarauntBean" class="com.springcore.first.Restaraunt">
-<property name="waitersList">
-<list>
-<value>Mr. Kausua</value>
-<value>Mr. CSD</value>
-<value>Mr. ASG</value>
-</list>
-</property>
+<bean id="restarauntBean" class="com.springcore.first.Restaraunt" scope="singleton">
 </bean>
 
-<bean id ="teaBean" class="com.springcore.first.Tea">
-</bean>
 </beans>
