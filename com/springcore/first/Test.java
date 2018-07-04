@@ -9,6 +9,6 @@ public class Test
 		ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
 		
 		Restaraunt obj = (Restaraunt)context.getBean("restarauntBean");
-		obj.prepareHotDrink();
+		obj.displayWaitersList();
 	}
 }
