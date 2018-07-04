@@ -6,7 +6,7 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 <bean id="restarauntBean" class="com.springcore.first.Restaraunt">
-<constructor-arg ref="teaBean"></constructor-arg>
+<property name="hotDrink" ref="teaBean"></property>
 </bean>
 
 <bean id ="teaBean" class="com.springcore.first.Tea">
